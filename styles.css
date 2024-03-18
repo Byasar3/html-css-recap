@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playfair+Display&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lato&family=Playfair+Display&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "playfair", "monospace";
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.about:active {
+    color: green;
+}
+
+.highlight {
+    color: blueviolet;
+}
+
+.skills:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+#projects {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+p, span {
+    font-family: lato;
+}
+
+
+.project1 {
+    height: 250px;
+    width: 400px;
+}
+
+.project2 {
+    height: 250px;
+    width: 400px;
+}
+
+.mission:hover {
+    font-size: larger;
+    color: green;
+    text-transform: uppercase;
+}
+
+.ongoing:hover {
+    font-size: larger;
+    color: orange;
+    text-transform: uppercase;
+}
